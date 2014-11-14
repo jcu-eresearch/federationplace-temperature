@@ -1,0 +1,141 @@
+#buildingContainer {
+	margin:auto;
+	text-align:center;
+	position:relative;
+    max-width:820px;
+}
+
+#buildingContainer img {
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:auto;
+}
+
+#slideHandle {
+	height:50px;
+	width:66px;
+	margin-left:-41px;
+	margin-top:120px;
+}
+
+#slider {
+	background-color:#fff;
+	height:70%;
+	width:3%;
+	top:10%;
+	left:38%;
+	position:absolute;
+
+
+}
+
+#innerSlider, #gradientSlide {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	z-index: 1;
+}
+
+#gradientSlide {
+	z-index: 2;
+	background: transparent; /* Old browsers */
+
+	background: linear-gradient(to bottom,  #d80407 0%,#0564ff 44%,#dd0003 100%); /* W3C */
+
+}
+
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-widget-content {
+    border: 1px solid #DDDDDD;
+    color: #333333;
+}
+
+.ui-widget {
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+
+.ui-slider .ui-slider-handle {
+    cursor: default;
+    height: 0.5em;
+    position: absolute;
+    width: 25px;
+    z-index: 2;
+}
+
+.ui-slider-vertical .ui-slider-handle {
+	height:6%;
+	margin-bottom:-3.5%;
+	width:140%;
+	left:-28%;
+	background-color:rgba(246, 246, 246, 0.5);
+	border: 2px solid #fff;
+	z-index:3;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    margin-left: -0.6em;
+    top: -20%;
+    height:120%;
+	width:10%;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    /*background: url("images/ui-bg_glass_100_f6f6f6_1x400.png") repeat-x scroll 50% 50% #F6F6F6;*/
+    color: #1C94C4;
+    font-weight: bold;
+}
+
+a.ui-slider-handle:hover, a.ui-slider-handle {
+	text-decoration:none;
+}
+
+#temperature {
+	font-size:48px;
+	font-weight:bold;
+	position:relative;
+	margin-left:120%;
+	margin-top:-20px;
+
+	color:#fff;
+	text-shadow:2px 2px 2px #000;
+}
+
+
+
+
+@media (max-width: 767px) {
+	#temperature {
+		font-size:30px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+
+
+	#outdoorTemp .stat {
+		font-size:40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#outdoorTemp .stat {
+		font-size:72px;
+	}
+}
+
+
+
+
+
+
+
+
